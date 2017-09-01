@@ -1,5 +1,6 @@
-**Sean Brooks**
-I built a website to collect my work as a Jr. Web Developer.  The website gives a brief bio, links to my work, and contact information.  
+**Portfolio Website**
+
+I built a website to collect my work as a Jr. Web Developer.  The website gives a brief bio about me, links to my work, and contact information.  
 
 **Getting Started**
 
