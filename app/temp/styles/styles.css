@@ -462,7 +462,7 @@ img {
 
 .large-hero {
   position: relative;
-  border-bottom: 10px solid #21ce99;
+  border-bottom: 10px solid #579211;
 }
 
 .large-hero__image {
@@ -484,6 +484,7 @@ img {
     color: #FFF;
     font-size: 2.4rem;
     margin: 0;
+    text-shadow: 2px 2px 8px #579211;
   }
 
 @media (min-width: 550px) {
@@ -497,6 +498,7 @@ img {
     font-weight: 300;
     color: #FFF;
     font-size: 1.8rem;
+    text-shadow: 2px 2px 8px #579211;
     margin: 1rem;
   }
 
@@ -511,7 +513,7 @@ img {
     color: #FFF;
     font-size: 1.5rem;
     font-weight: 100;
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+    text-shadow: 2px 2px 8px #579211;
     max-width: 30rem;
     margin-left: auto;
     margin-right: auto;
@@ -532,8 +534,8 @@ img {
   display: inline-block;
 }
 
-.btn--orange {
-    background-color: #d59541;
+.btn--light-green {
+    background-color: #CDF188;
   }
 
 .btn--large {
@@ -550,4 +552,86 @@ img {
 .wrapper {
   padding-left: 18px;
   padding-right: 18px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.wrapper--medium {
+    max-width: 976px;
+  }
+
+.wrapper .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+.page-section {
+  padding: 1.2rem 0;
+}
+
+@media (min-width: 800px) {
+
+.page-section {
+    padding: 4.5rem 0
+}
+  }
+
+.page-section--blue {
+    background-color: #2f5572;
+    color: #FFF;
+  }
+
+.headline {
+  font-weight: 300;
+  font-size: 1.9rem;
+  color: #2f5572;
+}
+
+@media (min-width: 550px) {
+
+.headline {
+    font-size: 2.875rem
+}
+  }
+
+.headline--centered {
+    text-align: center;
+  }
+
+.headline--green {
+    color: #579211;
+  }
+
+.headline--small {
+    font-size: 1.2rem;
+  }
+
+@media (min-width: 550px) {
+
+.headline--small {
+      font-size: 1.875rem
+  }
+  }
+
+.headline--narrow {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.headline--light {
+    font-weight: 100;
+  }
+
+.headline strong {
+    font-weight: 400;
+  }
+
+.headline--b-margin-small {
+    margin-bottom: .5em;
+  }
+
+.headline--b-margin-large {
+    margin-bottom: 1.6em;
+  }
