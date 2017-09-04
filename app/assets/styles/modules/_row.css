@@ -16,7 +16,8 @@
 
   @mixin atMedium {
     &__b-margin-until-medium {
-      margin-bottom: 0rem;
+      margin-bottom: 0
+      rem;
     }
 
     &__medium-4 {
