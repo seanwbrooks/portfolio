@@ -685,7 +685,8 @@ img {
 
 @media (min-width: 800px) {
     .row__b-margin-until-medium {
-      margin-bottom: 0rem;
+      margin-bottom: 0
+      rem;
     }
 
     .row__medium-4 {
