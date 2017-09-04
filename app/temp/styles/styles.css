@@ -661,6 +661,10 @@ img {
     margin-bottom: 1.6em;
   }
 
+.headline--no-t-margin {
+    margin-top: 0;
+  }
+
 .row::after {
     content: "";
     clear: both;
@@ -675,7 +679,15 @@ img {
     padding-right: 65px;
   }
 
+.row__b-margin-until-medium {
+    margin-bottom: 1rem;
+  }
+
 @media (min-width: 800px) {
+    .row__b-margin-until-medium {
+      margin-bottom: 0rem;
+    }
+
     .row__medium-4 {
       float: left;
       width: 33.333%;
@@ -693,4 +705,16 @@ img {
     .row__medium-8--smaller {
       width: 63%;
     }
+  }
+
+.generic-content-container p {
+    line-height: 1.65;
+    margin: 1.8rem 0;
+  }
+
+@media (min-width: 550px) {
+
+.generic-content-container p {
+      font-size: 1.125rem
+  }
   }
