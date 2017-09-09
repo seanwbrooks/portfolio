@@ -915,32 +915,32 @@ img {
   }
   }
 
-.feature-item {
+.portfolio-item {
   position: relative;
   padding-bottom: 2.5rem;
 }
 
 @media (min-width: 530px) {
 
-.feature-item {
+.portfolio-item {
     padding-left: 94px
 }
   }
 
-.feature-item__icon {
+.portfolio-item__icon {
     display: block;
     margin: 0 auto;
   }
 
 @media (min-width: 530px) {
 
-.feature-item__icon {
+.portfolio-item__icon {
       position: absolute;
       left: 0
   }
   }
 
-.feature-item__title {
+.portfolio-item__title {
     font-size: 1.6rem;
     font-weight: 300;
     margin-top: .7em;
@@ -950,7 +950,7 @@ img {
 
 @media (min-width: 530px) {
 
-.feature-item__title {
+.portfolio-item__title {
       font-size: 1.875rem;
       margin-top: 1em;
       text-align: left
@@ -1351,4 +1351,18 @@ by Gulp.  Instead edit gulp/templates/sprite */
       padding: 12px 0;
       background-color: transparent
   }
+  }
+
+.reveal-item {
+  opacity: 0;
+  -webkit-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.reveal-item--is-visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
