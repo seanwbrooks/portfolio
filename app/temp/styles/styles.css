@@ -548,8 +548,8 @@ img {
   display: inline-block;
 }
 
-.btn--light-green {
-    background-color: #CDF188;
+.btn--green {
+    background-color: #46D89E;
   }
 
 .btn--large {
@@ -1071,4 +1071,35 @@ by Gulp.  Instead edit gulp/templates/sprite */
     width: 34.75px;
     height: 42px;
     background-position: 27.08994708994709% 45.792307692307695%;
+  }
+
+.site-footer {
+  background-color: #1da1f2;
+  color: #FFF;
+  padding: .5rem 0;
+  text-align: center;
+}
+
+.site-footer__text {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 200;
+  }
+
+@media (min-width: 1010px) {
+
+.site-footer__text {
+      display: inline;
+      margin-bottom: 0;
+      margin-right: 1.4rem
+  }
+  }
+
+.site-footer a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+.site-footer a:hover {
+    color: #46D89E;
   }
