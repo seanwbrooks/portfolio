@@ -484,6 +484,7 @@ img {
   }
 
 .large-hero__text-content {
+    padding-top: 88px;
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -491,6 +492,13 @@ img {
     left: 0;
     width: 100%;
     text-align: center;
+  }
+
+@media (min-width: 800px) {
+
+.large-hero__text-content {
+      padding-top: 60px
+  }
   }
 
 .large-hero__title {
@@ -711,7 +719,7 @@ img {
   }
 
 .headline strong {
-    font-weight: 400;
+    font-weight: bold;
   }
 
 .headline--b-margin-small {
@@ -998,19 +1006,19 @@ img {
 by Gulp.  Instead edit gulp/templates/sprite */
 
 .icon {
-      background-image: url("/assets/images/sprites/sprite-1661d4ac.svg");
+      background-image: url("/assets/images/sprites/sprite-11e9e9ac.svg");
     }
 
 .icon--bars {
     width: 64px;
     height: 64px;
-    background-position: 68.79227053140097% 0;
+    background-position: 28.985507246376812% 73.49382716049382%;
   }
 
 .icon--book {
     width: 64px;
     height: 64px;
-    background-position: 99.71014492753623% 0;
+    background-position: 59.90338164251208% 73.49382716049382%;
   }
 
 .icon--clear-view-escapes {
@@ -1022,55 +1030,61 @@ by Gulp.  Instead edit gulp/templates/sprite */
 .icon--comment {
     width: 64px;
     height: 64px;
-    background-position: 0 99.56481481481481%;
+    background-position: 68.79227053140097% 29.62962962962963%;
   }
 
 .icon--facebook {
     width: 21.23px;
     height: 42.01px;
-    background-position: 73.83192537134163% 49.234556504346486%;
+    background-position: 16.81947391600272% 99.49453774661666%;
   }
 
 .icon--instagram {
     width: 42.01px;
     height: 42.01px;
-    background-position: 62.18612166470151% 49.234556504346486%;
+    background-position: 0 99.49453774661666%;
   }
 
 .icon--mail {
     width: 64px;
     height: 48px;
-    background-position: 0 48.00806451612903%;
+    background-position: 68.79227053140097% 0;
   }
 
 .icon--man {
     width: 64px;
     height: 64px;
-    background-position: 99.71014492753623% 59.25925925925926%;
+    background-position: 99.71014492753623% 0;
   }
 
 .icon--star {
     width: 64px;
     height: 64px;
-    background-position: 59.90338164251208% 99.56481481481481%;
+    background-position: 99.71014492753623% 39.50617283950617%;
+  }
+
+.icon--suitcase {
+    width: 142.4px;
+    height: 59.53px;
+    background-position: 0 35.76019703249835%;
   }
 
 .icon--twitter {
     width: 51.78px;
     height: 42.06px;
-    background-position: 94.15199343125627% 98.50700323226104%;
+    background-position: 94.15199343125627% 69.58790910079374%;
   }
 
 .icon--wifi {
     width: 60px;
     height: 64px;
-    background-position: 30.33175355450237% 99.56481481481481%;
+    background-position: 0 73.49382716049382%;
   }
 
 .icon--youtube {
     width: 34.75px;
     height: 42px;
-    background-position: 27.08994708994709% 45.792307692307695%;
+    background-position: 26.768253968253966% 99.48913043478261%;
   }
 
 .site-footer {
@@ -1102,4 +1116,103 @@ by Gulp.  Instead edit gulp/templates/sprite */
 
 .site-footer a:hover {
     color: #46D89E;
+  }
+
+.site-header {
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+@media (min-width: 800px) {
+
+.site-header {
+    background-color: rgba(29,161,242, .3)
+}
+  }
+
+.site-header__btn-container {
+    float: right;
+  }
+
+.site-header__logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%) scale(.8);
+            transform: translateX(-50%) scale(.8);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    background-color: #1da1f2;
+    padding: 15px 18px;
+  }
+
+@media (min-width: 800px) {
+
+.site-header__logo {
+      left: auto;
+      -webkit-transform: translateX(0);
+              transform: translateX(0)
+  }
+  }
+
+.site-header__logo__graphic {
+    text-indent: -9999px;
+    background-color: #1da1f2;
+  }
+
+.site-header__menu-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #1da1f2;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+@media (min-width: 800px) {
+
+.site-header__menu-icon {
+      display: none
+  }
+  }
+
+.site-header__menu-content {
+    display: none;
+  }
+
+@media (min-width: 800px) {
+
+.site-header__menu-content {
+      display: block
+  }
+  }
+
+.primary-nav--pull-right {
+    float: right;
+  }
+
+.primary-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+.primary-nav ul::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.primary-nav li {
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+  }
+
+.primary-nav a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding: 12px 0;
   }

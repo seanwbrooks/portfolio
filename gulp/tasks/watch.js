@@ -21,10 +21,18 @@ gulp.task("watch", function() {
     gulp.start("cssInject");
   });
 
+  watch("./app/assets/scripts/**/*.js", function() {
+    gulp.start("scriptsRefresh");
+  });
+
 });
 
 //cssInject task runs styles task then renders changes to our CSS to the browser
 gulp.task("cssInject", ["styles"], function() {
   return gulp.src("./app/temp/styles/styles.css")
     .pipe(browserSync.stream());
+});
+
+gulp.task("scriptsRefresh", ["scripts"], function() {
+  browserSync.reload();
 });

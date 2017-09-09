@@ -9,16 +9,27 @@
   <link rel="stylesheet" href="temp/styles/styles.css">
 </head>
 <body>
-  <header>
-    <img src="assets/images/icons/clear-view-escapes.svg">
-    <a href="#" class="btn">Get in Touch</a>
-    <nav>
-      <ul>
-        <li><a href="#my-beginning">My Beginning</a></li>
-        <li><a href="#portfolio">My Portfolio</a></li>
-        <li><a href="#testimonials">Bios</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="site-header__logo">
+        <div class="site-header__logo__graphic icon icon--suitcase">Sean Brooks</div>
+      </div>
+
+      <div class="site-header__menu-icon"></div>
+
+      <div class="site-header__menu-content">
+        <div class="site-header__btn-container">
+          <a href="#" class="btn">Get in Touch</a>
+        </div>
+        <nav class="primary-nav primary-nav--pull-right">
+          <ul>
+            <li><a href="#my-beginning">My Beginning</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#bio">Bio</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
   <div class="large-hero">
@@ -26,7 +37,7 @@
       <div class="wrapper">
         <h1 class="large-hero__title">Sean Brooks</h1>
         <h2 class="large-hero__subtitle">Jr. Web Developer</h2>
-        <p class="large-hero__description">My Beginning | Portfolio | Bios</p>
+        <p class="large-hero__description">My Beginning | Portfolio | Bio</p>
       </div>
     </div>
   </div>
@@ -34,7 +45,7 @@
   <div id="my-beginning" class="page-section">
     <div class="wrapper">
       <h2 class="headline headline--centered headline--light headline--b-margin-small">My journey as a web developer began in 2017.</h2>
-      <h3 class="headline headline--centered headline--green headline--small headline--narrow headline--light headline--b-margin-large">In Intro to Computer Science in 2009, I was introduced to programming<strong> in C++</strong>.</h3>
+      <h3 class="headline headline--centered headline--green headline--small headline--narrow headline--light headline--b-margin-large">In Intro to Computer Science in 2009, I was introduced to <strong>C++</strong> programming.</h3>
 
       <div class="row row--gutters">
         <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
@@ -128,8 +139,9 @@
     <div class="wrapper">
 
         <p><span class="site-footer__text">Copyright &copy; 2017 Sean Brooks.
-        Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></span><a class="btn btn--green" href="#">Get in Touch</a></p>
+        Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY.</a></span><a class="btn btn--green" href="#">Get in Touch</a></p>
     </div>
   </footer>
+  <script src="/temp/scripts/App.js"></script>
 </body>
 </html>
