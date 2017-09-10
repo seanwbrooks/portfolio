@@ -13,6 +13,7 @@
 
   &--less-magin {
     margin-bottom: 1.3rem;
+    margin-top: 0;
   }
 
   &__icon {
