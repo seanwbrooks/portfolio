@@ -839,14 +839,14 @@ img {
 
 @media (min-width: 800px) {
 
-.row--equal-height-at-medium {
+.flexbox .row--equal-height-at-medium {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex
   }
   }
 
-.row--equal-height-at-medium > div {
+.flexbox .row--equal-height-at-medium > div {
       float: none;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -855,14 +855,14 @@ img {
 
 @media (min-width: 1010px) {
 
-.row--equal-height-at-large {
+.flexbox .row--equal-height-at-large {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex
   }
   }
 
-.row--equal-height-at-large > div {
+.flexbox .row--equal-height-at-large > div {
       float: none;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1014,49 +1014,53 @@ img {
 by Gulp.  Instead edit gulp/templates/sprite */
 
 .icon {
-      background-image: url("/assets/images/sprites/sprite-c3052a87.svg");
+      background-image: url("/assets/images/sprites/sprite-347f4359.svg");
+    }
+
+.no-svg .icon {
+      background-image: url("/assets/images/sprites/sprite-347f4359.png");
     }
 
 .icon--bars {
-    width: 64px;
-    height: 64px;
-    background-position: 0 48.00806451612903%;
+    width: 66px;
+    height: 66px;
+    background-position: 0 48.0703125%;
   }
 
 .icon--book {
-    width: 64px;
-    height: 64px;
-    background-position: 46.0431654676259% 48.00806451612903%;
+    width: 66px;
+    height: 66px;
+    background-position: 46.808510638297875% 48.0703125%;
   }
 
 .icon--linkedin {
-    width: 60px;
-    height: 64px;
-    background-position: 99.58041958041959% 0;
+    width: 62px;
+    height: 66px;
+    background-position: 99.58620689655173% 0;
   }
 
 .icon--man {
-    width: 64px;
-    height: 64px;
-    background-position: 0 99.62096774193549%;
+    width: 66px;
+    height: 66px;
+    background-position: 0 99.6328125%;
   }
 
 .icon--star {
-    width: 64px;
-    height: 64px;
-    background-position: 46.0431654676259% 99.62096774193549%;
+    width: 66px;
+    height: 66px;
+    background-position: 46.808510638297875% 99.6328125%;
   }
 
 .icon--suitcase {
-    width: 142.4px;
-    height: 59.53px;
+    width: 144.4px;
+    height: 61.53px;
     background-position: 0 0;
   }
 
 .icon--twitter {
-    width: 60px;
-    height: 64px;
-    background-position: 89.5104895104895% 99.62096774193549%;
+    width: 62px;
+    height: 66px;
+    background-position: 91.03448275862068% 99.6328125%;
   }
 
 .site-footer {
@@ -1147,8 +1151,8 @@ by Gulp.  Instead edit gulp/templates/sprite */
   }
 
       .site-header--dark .site-header__logo {
-        -webkit-transform: scale(.7);
-                transform: scale(.7);
+        -webkit-transform: scale(.67);
+                transform: scale(.67);
       }
   }
 
