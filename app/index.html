@@ -5,8 +5,9 @@
   <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
   <title>Sean Brooks</title>
   <meta name="keywords" content="my-beginning, portfolio, bio">
-  <meta name="description" content="Sean Brooks Jr. Web Developer">
+  <meta name="description" content="Sean Brooks Web Developer">
   <link rel="stylesheet" href="temp/styles/styles.css">
+  <script src="/temp/scripts/Vendor.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -98,7 +99,7 @@
     </div>
   </div>
 
-  <div id="bio" class="page-section page-section--no-b-padding-until-large page-section--bios" data-matching-link="#bio-link">
+  <div id="bio" class="page-section page-section--no-b-padding-until-large page-section--bios lazyload" data-matching-link="#bio-link">
     <div class="wrapper wrapper--no-padding-until-large">
       <h2 class="section-title"><span class="icon icon--man section-title__icon"></span><strong>Bios</strong></h2>
 
@@ -106,7 +107,7 @@
         <div class="row__large-4">
           <div class="bio">
             <div class="bio__photo">
-              <img src="assets/images/bio-designer.jpg" alt="Designer">
+              <img class="lazyload" data-src="assets/images/bio-designer.jpg" alt="Designer">
             </div>
             <h3 class="bio__title">Sean Brooks</h3>
             <h4 class="bio__subtitle">Designer</h3>
@@ -116,7 +117,7 @@
         <div class="row__large-4">
           <div class="bio">
             <div class="bio__photo">
-              <img src="assets/images/bio-web-developer.jpg" alt="Web Developer">
+              <img class="lazyload" data-src="assets/images/bio-web-developer.jpg" alt="Web Developer">
             </div>
             <h3 class="bio__title">Sean Brooks</h3>
             <h4 class="bio__subtitle">Web Developer</h3>
@@ -126,7 +127,7 @@
         <div class="row__large-4">
           <div class="bio bio--last">
             <div class="bio__photo">
-              <img src="assets/images/bio-appalachian-trail.jpg" alt="Thru Hiker">
+              <img class="lazyload" data-src="assets/images/bio-appalachian-trail.jpg" alt="Thru Hiker">
             </div>
             <h3 class="bio__title">Sean Brooks</h3>
             <h4 class="bio__subtitle">Appalachian Trail Thru Hiker</h3>
