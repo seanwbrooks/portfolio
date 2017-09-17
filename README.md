@@ -7,16 +7,16 @@ Portfolio is a great place to start to get to know me. It contains a my beginnin
 # Technology
 
 **Node.js**
-*Node.js is an open source server framework. It is lightweight and efficient.
+* Node.js is an open source server framework. It is lightweight and efficient.
 
 **NPM**
-*NPM is a package manager for Javascript. I used many packages to improve website responsiveness and help automate tasks and builds for deployment.
+* NPM is a package manager for Javascript. I used many packages to improve website responsiveness and help automate tasks and builds for deployment.
 
 **Gulp**
-*Gulp is a toolkit for automating painful or time-consuming tasks in your web development process. Gulp was the butter to my popcorn.
+* Gulp is a toolkit for automating painful or time-consuming tasks in your web development process. Gulp was the butter to my popcorn.
 
 **jQuery**
-*jQuery is a very popular JS library that helped me create some of the behavior for the site.
+* jQuery is a very popular JS library that helped me create some of the behavior for the site.
 
 **Babel**
 * Babel helps you compile next-generation Javascript.
