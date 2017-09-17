@@ -1,27 +1,37 @@
-**Portfolio Website**
+# [Portfolio](https://seanwbrooks.github.io/portfolio/)
 
-I built a website to collect my work as a Jr. Web Developer.  The website gives a brief bio about me, links to my work, and contact information.  
+![Portfolio](./app/assets/images/portfolio.jpg)
 
-**Getting Started**
+Portfolio is a great place to start to get to know me. It contains a my beginnings section that explains how I got into web development, portfolio section with links to projects, and bios section where you can get to know me.
 
-Clone repo: `git clone https://github.com/seanwbrooks/portfolio-website.git`
+# Technology
+
+**Node.js**
+*Node.js is an open source server framework. It is lightweight and efficient.
+
+**NPM**
+*NPM is a package manager for Javascript. I used many packages to improve website responsiveness and help automate tasks and builds for deployment.
+
+**Gulp**
+*Gulp is a toolkit for automating painful or time-consuming tasks in your web development process. Gulp was the butter to my popcorn.
+
+**jQuery**
+*jQuery is a very popular JS library that helped me create some of the behavior for the site.
+
+**Babel**
+* Babel helps you compile next-generation Javascript.
+
+# Getting Started
+
+Clone repo: `git clone https://github.com/seanwbrooks/portfolio.git`
 
 Install packages: `npm install`
 
 Run: `gulp watch`
 
-**Built With**
+# Contributors
+**Sean Brooks**
 
-* Node.js
-* NPM
-* Gulp
-* jQuery
-* Normalize
-* Babel
-* Browser Sync
-* PostCSS
-* Webpack
-
-**Acknowledgments**
+# Acknowledgments
 
 * Brad Schiff - creator of Git a Web Developer Job: Mastering the Modern Workflow
